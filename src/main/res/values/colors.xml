@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#2E9DE4</color>
+    <color name="color_primary_dark">#2E9DE4</color>
+    <color name="color_accent">#2E9DE4</color>
+
+    <!-- 아이콘 -->
+    <color name="gray_icon_color">#999999</color>
+    <color name="blue_icon_color">#2979FF</color>
+    <color name="red_icon_color">#D93434</color>
+
+    <!-- 텍스트 -->
+    <color name="default_text_color">#111111</color>
+    <color name="sub_text_color">#999999</color>
+    <color name="disable_text_color">#BBBBBB</color>
+    <color name="selected_text_color">#2E9DE4</color>
+    <color name="error_text_color">#FF3333</color>
+
+    <!-- 버튼 -->
+    <color name="default_button_color">#2E9DE4</color>
+    <color name="pressed_button_color">#1C5E89</color>
+
+    <!-- 리스트 -->
+    <color name="default_list_color">#FFFFFF</color>
+    <color name="pressed_list_color">#D6D6D6</color>
+
+    <!-- 라인 -->
+    <color name="default_line_color">#DDDDDD</color>
+
+    <!-- 테두리 -->
+    <color name="default_border_color">#CCCCCC</color>
+    <color name="edit_border_color">#CCCCCC</color>
+    <color name="parking_lot_border_color">#444444</color>
+
+    <!-- 백그라운드 -->
+    <color name="window_background_color">#FFFFFF</color>
+    <color name="info_background_color">#EEEEEE</color>
+    <color name="title_background_color">#DDDDDD</color>
+
+    <!-- 투명도 -->
+    <color name="popup_transparent">#66000000</color>
+</resources>

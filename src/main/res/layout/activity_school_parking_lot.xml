@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="@drawable/school_parking_lot_map">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginBottom="150dp"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="주차장 1"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="4dp"
+                android:background="@drawable/layout_parking_lot_border">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="24dp"
+                    android:background="@color/red_icon_color"
+                    />
+
+                <FrameLayout
+                    android:id="@+id/layParking1"
+                    android:layout_width="40dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/blue_icon_color">
+
+                    <ImageView
+                        android:id="@+id/imgParking1"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_parking_24_white"
+                        android:visibility="gone"
+                        />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/red_icon_color"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="70dp"
+            android:layout_gravity="end"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="주차장 2"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="4dp"
+                android:background="@drawable/layout_parking_lot_border">
+
+                <View
+                    android:layout_width="24dp"
+                    android:layout_height="40dp"
+                    android:background="@color/red_icon_color"
+                    />
+
+                <View
+                    android:layout_width="24dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@color/red_icon_color"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="80dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="주차장 3"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="4dp"
+                android:background="@drawable/layout_parking_lot_border">
+
+                <FrameLayout
+                    android:id="@+id/layParking3"
+                    android:layout_width="40dp"
+                    android:layout_height="24dp"
+                    android:background="@color/blue_icon_color">
+
+                    <ImageView
+                        android:id="@+id/imgParking3"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_parking_24_white"
+                        android:visibility="gone"
+                        />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/blue_icon_color"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="end"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="주차장 4"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="4dp"
+                android:background="@drawable/layout_parking_lot_border">
+
+                <View
+                    android:layout_width="24dp"
+                    android:layout_height="40dp"
+                    android:background="@color/red_icon_color"
+                    />
+
+                <FrameLayout
+                    android:id="@+id/layParking4"
+                    android:layout_width="24dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@color/blue_icon_color">
+
+                    <ImageView
+                        android:id="@+id/imgParking4"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_parking_24_white"
+                        android:visibility="gone"
+                        />
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="24dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@color/red_icon_color"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnQRCode"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="QR 코드 확인"
+        android:stateListAnimator="@null"
+        android:background="@drawable/button_bottom_selector"
+        />
+
+</LinearLayout>
